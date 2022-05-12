@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Admin dashboard",
+  "name": "An admin dashboard with login, home, and product pages.",
   "icons": [
     {
       "src": "favicon.ico",
