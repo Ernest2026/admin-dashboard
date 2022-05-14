@@ -5,17 +5,36 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+  font-family: pmedium;
+}
+
+:root {
+  --grey-40: hsl(0, 0%, 40%);
+  --grey-30: hsl(0, 0%, 30%);
+  --grey-20: hsl(0, 0%, 20%);
+}
+
 @font-face {
   font-family: Pbold;
-  src: url("./assets/font/Poppins-Bold.ttf");
+  src: url("./assets/Font/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: Pmedium;
-  src: url("./assets/font/Poppins-Medium.ttf");
+  src: url("./assets/Font/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: Pregular;
-  src: url("./assets/font/Poppins-Regular.ttf");
+  src: url("./assets/Font/Poppins-Regular.ttf");
+}
+
+.sidebar {
+  background-color: var(--grey-30) !important;
+}
+
+.sidebar .div-link:hover {
+  background-color: var(--grey-20) !important;
 }
