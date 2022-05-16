@@ -15,20 +15,20 @@ const LoginForm = () => {
       <div className="form-floating">
         <input
           type="email"
-          id="floatingInput"
+          id="emailInput"
           className="form-control mb-3"
           placeholder="Email"
         />
-        <label htmlFor="floatingInput">Email</label>
+        <label htmlFor="emailInput">Email</label>
       </div>
       <div className="form-floating">
         <input
           type="password"
-          id="floatingInput"
+          id="passwordInput"
           className="form-control mb-3"
           placeholder="Password"
         />
-        <label htmlFor="floatingInput">Password</label>
+        <label htmlFor="passwordInput">Password</label>
       </div>
       <div className="d-grid gap-2 mb-4">
         <button type="button" className="btn-lg btn btn-success">
