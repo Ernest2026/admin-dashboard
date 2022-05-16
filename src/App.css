@@ -18,17 +18,17 @@ a {
 
 @font-face {
   font-family: Pbold;
-  src: url("./assets/Font/Poppins-Bold.ttf");
+  src: url("./assets/font/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: Pmedium;
-  src: url("./assets/Font/Poppins-Medium.ttf");
+  src: url("./assets/font/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: Pregular;
-  src: url("./assets/Font/Poppins-Regular.ttf");
+  src: url("./assets/font/Poppins-Regular.ttf");
 }
 
 .sidebar {
