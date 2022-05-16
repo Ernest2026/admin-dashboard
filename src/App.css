@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Pregular, Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: pregular;
+}
+
+:root {
+  --grey-40: hsl(0, 0%, 40%);
+  --grey-30: hsl(0, 0%, 30%);
+  --grey-20: hsl(0, 0%, 20%);
+}
+
+@font-face {
+  font-family: Pbold;
+  src: url("./assets/font/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Pmedium;
+  src: url("./assets/font/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Pregular;
+  src: url("./assets/font/Poppins-Regular.ttf");
+}
+
+.responsive-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background-color: var(--grey-30) !important;
+}
+
+.sidebar .div-link:hover {
+  background-color: var(--grey-20) !important;
+}
+
+.avatar {
+  max-width: 75% !important;
+}
+
+.head {
+  font-size: 50px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.img-404 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media (max-width: 767px) {
+  .avatar {
+    display: none;
+  }
+}
