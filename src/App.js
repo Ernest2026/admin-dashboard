@@ -16,8 +16,6 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<Auth />} />
-          <Route path="/*" element={<Nopage />} />
           <Route path="/" element={<Page />}>
             <Route index element={<Dashboard />} />
             <Route path="product" element={<Products />} />
@@ -25,6 +23,8 @@ function App() {
             <Route path="team" element={<Teams />} />
             <Route path="logout" element={<Logout />} />
           </Route>
+          <Route path="/login" element={<Auth />} />
+          <Route path="/*" element={<Nopage />} />
         </Routes>
       </BrowserRouter>
     </>
