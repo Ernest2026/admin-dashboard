@@ -11,6 +11,7 @@ a {
 }
 
 :root {
+  --grey-95: hsl(0, 0%, 95%);
   --grey-40: hsl(0, 0%, 40%);
   --grey-30: hsl(0, 0%, 30%);
   --grey-20: hsl(0, 0%, 20%);
@@ -39,6 +40,10 @@ a {
   .sm-nav {
     width: auto;
   }
+}
+
+.text-break-all {
+  word-break: break-all;
 }
 
 .responsive-container {
@@ -74,6 +79,18 @@ input[type="password"]:focus {
   margin-right: auto;
   display: block;
 }
+
+.mini-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.product-card {
+  background-color: var(--grey-95);
+}
 @media (max-width: 767px) {
   .avatar {
     display: none;
@@ -87,5 +104,15 @@ input[type="password"]:focus {
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .sidebar .logo {
     max-width: 120px;
+  }
+
+  .product-card {
+    width: 49% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product-card {
+    width: 32.5% !important;
   }
 }

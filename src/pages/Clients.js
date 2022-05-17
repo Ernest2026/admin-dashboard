@@ -16,7 +16,7 @@ const Clients = () => {
   return (
     <div>
       <h4>
-        <strong>Clients page</strong>
+        <strong>Clients</strong>
       </h4>
       <hr />
       <div className="d-flex flex-row align-items-center mb-3">
