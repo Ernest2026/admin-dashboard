@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# An Admin Dashboard created with Reactjs
 
-You can use the [editor on GitHub](https://github.com/Ernest2026/admin-dashboard/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## About the project
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a capstone team project from Side Hustle Internship.
 
-### Markdown
+## Expected features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **An admin login page** - just email and password login.
+- **Home** - the root page with some static analytics data, graphs etc.
+- **Team** - a table showing the various members of the company.
+- **Clients** - a table that displays the customers of the business.
+- **A product page** - that displays all the products of the company, and should be displayed in cards.
+- **Logout** - a user can logout of the dashboard, this takes them back to the login page.
 
-```markdown
-Syntax highlighted code block
+## How to run the project
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ernest2026/admin-dashboard/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Clone or download this repository.
+- Make sure the engines in the package.json file are compatible with the one on your local machine.
+- Run _npm install_ and _npm start_...
