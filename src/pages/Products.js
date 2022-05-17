@@ -5,7 +5,7 @@ const Products = () => {
   const [products, setProducts] = useState([]);
   const [dataCount, setDataCount] = useState(10);
   useEffect(() => {
-    fetch(`/product.json`)
+    fetch(`https://fakerapi.it/api/v1/products?_quantity=${dataCount}`)
       .then((res) => res.json())
       .then((data) => setProducts(data.data))
       .catch((err) => console.log(err));
@@ -17,7 +17,7 @@ const Products = () => {
         <strong>Products</strong>
       </h4>
       <hr />
-      <div className="d-flex flex-row align-items-center mb-3">
+      <div className="d-flex flex-row align-items-center">
         Show{" "}
         <span>
           <select
@@ -36,7 +36,7 @@ const Products = () => {
       </div>
 
       <div className="row g-0 justify-content-between">
-        {products.length >= 1 &&
+        {products.length >= 1 ? (
           products.map((data) => (
             <Item
               key={data.id}
@@ -48,7 +48,12 @@ const Products = () => {
               net_price={data.net_price}
               taxes={data.taxes}
             />
-          ))}
+          ))
+        ) : (
+          <div className="text-center mt-3">
+            <div className="spinner-border spinner-border-sm"></div>
+          </div>
+        )}
       </div>
     </div>
   );
