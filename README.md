@@ -51,4 +51,8 @@ Note: I specified the avatars using HTML because, when I did so using Markdown,
   <img src="https://github.com/ernest2026.png?size=40" height="40" width="40" alt="Ernesto" />
 </a>
 
+<a href="https://github.com/Tosmel2" target="_blank" title="Tosmel">
+  <img src="https://avatars.githubusercontent.com/u/84603888?v=4" height="40" width="40" alt="Tosmel" />
+</a>
+
 This list is maintained manually—for now—and includes (a) each person who submitted a pull request that was eventually merged into `master`, and (b) each person who contributed in a different way (e.g. providing constructive feedback) and who approved of me including them in this list.
