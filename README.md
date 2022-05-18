@@ -51,6 +51,10 @@ Note: I specified the avatars using HTML because, when I did so using Markdown,
   <img src="https://github.com/ernest2026.png?size=40" height="40" width="40" alt="Ernesto" />
 </a>
 
+<a href="https://github.com/AyomideA-S" target="_blank" title="AyomideA-S">
+  <img src="https://github.com/AyomideA-S.png?size=40" height="40" width="40" alt="AyomideA-S" />
+</a>
+
 <a href="https://github.com/Tosmel2" target="_blank" title="Tosmel">
   <img src="https://avatars.githubusercontent.com/u/84603888?v=4" height="40" width="40" alt="Tosmel" />
 </a>
