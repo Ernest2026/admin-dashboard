@@ -1,54 +1,32 @@
-# An Admin Dashboard created with Reactjs
+# Getting Started with Create React App
 
-## About the project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a capstone team project from Side Hustle Internship.
+## Available Scripts
 
-## Expected features
+In the project directory, you can run:
 
-- **An admin login page** - just email and password login.
-- **Home** - the root page with some static analytics data, graphs etc.
-- **Team** - a table showing the various members of the company.
-- **Clients** - a table that displays the customers of the business.
-- **A product page** - that displays all the products of the company, and should be displayed in cards.
-- **Logout** - a user can logout of the dashboard, this takes them back to the login page.
+### `npm start`
 
-## How to run the project
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Clone or download this repository.
-- Make sure the engines in the package.json file are compatible with the one on your local machine.
-- Run _npm install_ and _npm start_...
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Contributors
+### `npm test`
 
-Thanks to these people for contributing to the maintenance of this tutorial.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<!--
+### `npm run build`
 
-Template:
----------
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<a href="https://github.com/____" target="_blank" title="____">
-  <img src="https://github.com/____.png?size=40" height="40" width="40" alt="____" />
-</a>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Instructions:
--------------
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Copy the template and paste it below.
-2. Replace the four "____" strings with the contributor's GitHub username.
-
-Note: I specified the avatars using HTML because, when I did so using Markdown,
-      only the _custom_ avatars appeared at the size I specified via the URL
-      (e.g. 40px squared, for `https://github.com/gitname.png?size=40`);
-      the GitHub-generated avatars seemed to ignore the size parameter and,
-      instead, appear at their full size (approximately 420px squared).
-      By using HTML, I can force _both_ types to appear at 40px squared.
-
--->
-
-<a href="https://github.com/Ernest2026" target="_blank" title="Ernesto">
-  <img src="https://github.com/ernest2026.png?size=40" height="40" width="40" alt="Ernesto" />
-</a>
-
-This list is maintained manually—for now—and includes (a) each person who submitted a pull request that was eventually merged into `master`, and (b) each person who contributed in a different way (e.g. providing constructive feedback) and who approved of me including them in this list.
+demo : https://sidehustle-admindashboard.netlify.app
