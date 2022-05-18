@@ -2,7 +2,7 @@
 
 ## About the project
 
-This is a capstone team project from Side Hustle Internship.
+This is a capstone team project(Group 44) from Side Hustle Internship cohort 5.
 
 ## Expected features
 
