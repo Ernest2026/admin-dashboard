@@ -47,7 +47,7 @@ const LineChart = () => {
     datasets: [
       {
         label: "Category 1",
-        data: [0, 40, -10, -10, 30, -20, 50, 10],
+        data: [0, 40, -10, -10, 30, -10, 20],
         borderColor: "hsl(240, 100%, 40%)",
         backgroundColor: "hsl(240, 100%, 50%)",
       },

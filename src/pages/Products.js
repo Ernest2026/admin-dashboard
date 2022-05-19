@@ -56,19 +56,21 @@ const Products = () => {
           </div>
         )}
       </div>
-      <div className="d-flex flex-column-reverse flex-sm-row justify-content-between align-items-center mt-3">
-        <div>
-          <p className="m-0">Showing 1 to 10 of 50 entries</p>
+      {products.length >= 1 && (
+        <div className="d-flex flex-column-reverse flex-sm-row justify-content-between align-items-center mt-3">
+          <div>
+            <p className="m-0">Showing 1 to 10 of 50 entries</p>
+          </div>
+          <div>
+            <button className="btn btn-outline-dark btn-sm ms-2">
+              <FaArrowLeft /> <span>Prev</span>
+            </button>
+            <button className="btn btn-outline-dark btn-sm ms-2">
+              <span>Next</span> <FaArrowRight />
+            </button>
+          </div>
         </div>
-        <div>
-          <button className="btn btn-outline-dark btn-sm ms-2">
-            <FaArrowLeft /> <span>Prev</span>
-          </button>
-          <button className="btn btn-outline-dark btn-sm ms-2">
-            <span>Next</span> <FaArrowRight />
-          </button>
-        </div>
-      </div>
+      )}
     </div>
   );
 };

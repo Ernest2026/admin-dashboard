@@ -23,30 +23,6 @@ This is a capstone team project(Group 44) from Side Hustle Internship cohort 5.
 
 Thanks to these people for contributing to the maintenance of this tutorial.
 
-<!--
-
-Template:
----------
-
-<a href="https://github.com/____" target="_blank" title="____">
-  <img src="https://github.com/____.png?size=40" height="40" width="40" alt="____" />
-</a>
-
-Instructions:
--------------
-
-1. Copy the template and paste it below.
-2. Replace the four "____" strings with the contributor's GitHub username.
-
-Note: I specified the avatars using HTML because, when I did so using Markdown,
-      only the _custom_ avatars appeared at the size I specified via the URL
-      (e.g. 40px squared, for `https://github.com/gitname.png?size=40`);
-      the GitHub-generated avatars seemed to ignore the size parameter and,
-      instead, appear at their full size (approximately 420px squared).
-      By using HTML, I can force _both_ types to appear at 40px squared.
-
--->
-
 <a href="https://github.com/Ernest2026" target="_blank" title="Ernesto">
   <img src="https://github.com/ernest2026.png?size=40" height="40" width="40" alt="Ernesto" />
 </a>
@@ -60,9 +36,7 @@ Note: I specified the avatars using HTML because, when I did so using Markdown,
 </a>
 
 <a href="https://github.com/frimpong-kofi" target="_blank" title="Network">
-
   <img src="https://github.com/frimpong-kofi.png?size=40" height="40" width="40" alt="Network" />
-
 </a>
 
-This list is maintained manually—for now—and includes (a) each person who submitted a pull request that was eventually merged into `master`, and (b) each person who contributed in a different way (e.g. providing constructive feedback) and who approved of me including them in this list.
+This list is maintained manually—for now—and includes (a) each person who submitted a pull request that was eventually merged into `main`, and (b) each person who contributed in a different way (e.g. providing constructive feedback) and who approved of me including them in this list.

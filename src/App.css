@@ -168,7 +168,7 @@ input[type="password"]:focus {
   }
 
   .pie {
-    max-width: unset !important;
+    max-width: 95% !important;
   }
 }
 

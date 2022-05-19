@@ -40,25 +40,25 @@ const Home = () => {
         />
       </div>
       <div className="row g-0 justify-content-between">
-        <div className="col-lg-8 col-md-9 col-12 border home-chart-a overflow-scroll p-3 bg-light rounded-1">
-          <div className="" style={{ minWidth: "500px" }}>
+        <div className="col-lg-8 col-md-9 col-12 border home-chart-a overflow-scroll p-2 bg-light rounded-1">
+          <div className="" style={{ minWidth: "400px" }}>
             <LineChart />
           </div>
         </div>
-        <div className="d-flex align-items-center col-lg-4 col-md-3 col-12 border home-chart-b mt-md-0 mt-4 bg-light rounded-1">
+        <div className="d-flex align-items-center col-lg-4 col-md-3 col-12 border home-chart-b mt-md-0 mt-3 bg-light rounded-1">
           <div className="pie mx-auto">
             <DoughnutChart />
           </div>
         </div>
       </div>
       <div className="row g-0 justify-content-between flex-column-reverse flex-md-row">
-        <div className="d-flex align-items-center col-lg-4 col-md-3 col-12 border home-chart-b mt-4 p-3 bg-light rounded-1">
+        <div className="d-flex align-items-center col-lg-4 col-md-3 col-12 border home-chart-b mt-3 bg-light rounded-1">
           <div className="pie mx-auto">
             <PieChart />
           </div>
         </div>
-        <div className="col-lg-8 col-md-9 col-12 border home-chart-a overflow-scroll mt-4 bg-light rounded-1">
-          <div className="" style={{ minWidth: "500px" }}>
+        <div className="col-lg-8 col-md-9 col-12 border home-chart-a overflow-scroll p-2 mt-3 bg-light rounded-1">
+          <div className="" style={{ minWidth: "400px" }}>
             <BarChart />
           </div>
         </div>

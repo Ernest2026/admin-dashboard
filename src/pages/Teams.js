@@ -72,27 +72,29 @@ const Clients = () => {
               </tr>
             )}
           </tbody>
-          <tfoot>
-            <tr>
-              <th colSpan="5">
-                <div className="d-flex flex-row justify-content-between align-items-center">
-                  <div>
-                    <p className="m-0">Showing 1 to 10 of 50 entries</p>
+          {teams.length >= 1 && (
+            <tfoot>
+              <tr>
+                <th colSpan="5">
+                  <div className="d-flex flex-row justify-content-between align-items-center">
+                    <div>
+                      <p className="m-0">Showing 1 to 10 of 50 entries</p>
+                    </div>
+                    <div>
+                      <button className="btn btn-outline-dark btn-sm ms-2">
+                        <FaArrowLeft />{" "}
+                        <span className=" d-none d-sm-inline-block">Prev</span>
+                      </button>
+                      <button className="btn btn-outline-dark btn-sm ms-2">
+                        <span className=" d-none d-sm-inline-block">Next</span>{" "}
+                        <FaArrowRight />
+                      </button>
+                    </div>
                   </div>
-                  <div>
-                    <button className="btn btn-outline-dark btn-sm ms-2">
-                      <FaArrowLeft />{" "}
-                      <span className=" d-none d-sm-inline-block">Prev</span>
-                    </button>
-                    <button className="btn btn-outline-dark btn-sm ms-2">
-                      <span className=" d-none d-sm-inline-block">Next</span>{" "}
-                      <FaArrowRight />
-                    </button>
-                  </div>
-                </div>
-              </th>
-            </tr>
-          </tfoot>
+                </th>
+              </tr>
+            </tfoot>
+          )}
         </table>
       </div>
     </div>
