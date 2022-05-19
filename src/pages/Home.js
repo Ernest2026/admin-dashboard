@@ -1,10 +1,10 @@
 import React from "react";
 import HomeCard from "../components/Card/Home";
 import { FaCartPlus, FaChartPie, FaUserPlus } from "react-icons/fa";
-import LineChart from "../assets/Chart/Line";
-import DoughnutChart from "../assets/Chart/Doughnut";
-import PieChart from "../assets/Chart/Pie";
-import BarChart from "../assets/Chart/Bar";
+import LineChart from "../components/Chart/Line";
+import DoughnutChart from "../components/Chart/Doughnut";
+import PieChart from "../components/Chart/Pie";
+import BarChart from "../components/Chart/Bar";
 
 const Home = () => {
   return (
